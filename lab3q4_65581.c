@@ -14,6 +14,6 @@ int main() {
 		scanf("%d", &n);
 	}
 
-	printf("Sum = %d, Average = %d\n", sum, sum/count);
+	printf("Sum = %d, Average = %.2f\n", sum, (float)sum/(float)count);
 	return 0;
 }
